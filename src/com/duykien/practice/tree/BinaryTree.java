@@ -1,4 +1,4 @@
-package com.duykien.practice.datatypes;
+package com.duykien.practice.tree;
 
 public class BinaryTree {
 	/**

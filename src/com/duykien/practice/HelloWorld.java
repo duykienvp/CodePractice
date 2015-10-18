@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import com.duykien.practice.Student;
-import com.duykien.practice.datatypes.BinaryTree;
 import com.duykien.practice.datatypes.LinkedList;
 import com.duykien.practice.datatypes.MaxHeap;
 import com.duykien.practice.datatypes.Node;
-import com.duykien.practice.datatypes.BinaryTree.ETreeTraversalOrder;
+import com.duykien.practice.tree.BinaryTree;
+import com.duykien.practice.tree.BinaryTree.ETreeTraversalOrder;
 
 public class HelloWorld {
 
