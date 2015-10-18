@@ -187,5 +187,13 @@ public class HelloWorld {
 		tree.insert(13);
 		tree.insert(17);
 		tree.traverse(ETreeTraversalOrder.IN_ORDER);
+		System.out.println();
+		System.out.println("Size = " + tree.size());
+		
+		tree.deleteKey(14);
+		
+		tree.traverse(ETreeTraversalOrder.IN_ORDER);
+		System.out.println();
+		System.out.println("Size = " + tree.size());
 	}
 }
