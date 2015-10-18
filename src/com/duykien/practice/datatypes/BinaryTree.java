@@ -1,4 +1,4 @@
-package com.test.datatypes;
+package com.duykien.practice.datatypes;
 
 public class BinaryTree {
 	public enum ETreeTraversalOrder {

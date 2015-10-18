@@ -1,4 +1,4 @@
-package com.test.datatypes;
+package com.duykien.practice.datatypes;
 
 import java.util.HashSet;
 

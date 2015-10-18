@@ -1,4 +1,4 @@
-package com.test.datatypes;
+package com.duykien.practice.datatypes;
 
 public class MaxHeap {
 	  int[] A = null;

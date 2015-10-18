@@ -1,4 +1,4 @@
-package com.test;
+package com.duykien.practice;
 
 public class Student {
 	private int id;

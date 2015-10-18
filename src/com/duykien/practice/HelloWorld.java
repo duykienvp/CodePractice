@@ -1,13 +1,14 @@
-package com.test;
+package com.duykien.practice;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import com.test.Student;
-import com.test.datatypes.BinaryTree;
-import com.test.datatypes.BinaryTree.ETreeTraversalOrder;
-import com.test.datatypes.LinkedList;
-import com.test.datatypes.MaxHeap;
-import com.test.datatypes.Node;
+
+import com.duykien.practice.Student;
+import com.duykien.practice.datatypes.BinaryTree;
+import com.duykien.practice.datatypes.LinkedList;
+import com.duykien.practice.datatypes.MaxHeap;
+import com.duykien.practice.datatypes.Node;
+import com.duykien.practice.datatypes.BinaryTree.ETreeTraversalOrder;
 
 public class HelloWorld {
 
