@@ -175,6 +175,20 @@ public class HelloWorld {
 			quickSort(a, i, r);
 	}
 
+	public static double CutRodButtomUp(double[] p, int n) {
+		double[] r = new double[n + 1];
+		r[0] = 0;
+		for (int j = 1; j < n + 1; j++) {
+			r[j] = 0;
+			for (int i = 0; i < j + 1; i++) {
+				if (r[j] < r[i] + p[j - i]) {
+					r[j] = r[i] + p[j - i];
+				}
+			}
+		}
+		return r[n];
+	}
+
 	public static void main(String[] args) {
 		BinaryTree tree = new BinaryTree();
 		tree.insert(12);
@@ -189,9 +203,9 @@ public class HelloWorld {
 		tree.traverse(ETreeTraversalOrder.IN_ORDER);
 		System.out.println();
 		System.out.println("Size = " + tree.size());
-		
+
 		tree.deleteKey(14);
-		
+
 		tree.traverse(ETreeTraversalOrder.IN_ORDER);
 		System.out.println();
 		System.out.println("Size = " + tree.size());
