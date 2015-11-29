@@ -11,7 +11,6 @@ import com.duykien.practice.datatypes.roadnetwork.LinkInfo;
 import com.duykien.practice.datatypes.roadnetwork.LogicNetwork;
 import com.duykien.practice.datatypes.roadnetwork.NodeInfo;
 import com.duykien.practice.datatypes.roadnetwork.PathInfo;
-import com.duykien.practice.datatypes.roadnetwork.TestDistanceHeuristics;
 
 public class AStar {
 	public static PathInfo findShortestPathRoadNetwork(LogicNetwork network, NodeInfo startNode, NodeInfo endNode, AStarShortestPathHeuristics heutistics) {

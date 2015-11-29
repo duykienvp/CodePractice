@@ -1,6 +1,6 @@
-package com.duykien.practice.datatypes.roadnetwork;
+package com.duykien.practice.algo;
 
-import com.duykien.practice.algo.AStarShortestPathHeuristics;
+import com.duykien.practice.datatypes.roadnetwork.LogicNetwork;
 
 public class TestDistanceHeuristics implements AStarShortestPathHeuristics {
 	private LogicNetwork network;
