@@ -1,4 +1,4 @@
-package com.duykien.practice.algo;
+package com.duykien.practice.algo.astar;
 
 public interface AStarShortestPathHeuristics {
 	/**

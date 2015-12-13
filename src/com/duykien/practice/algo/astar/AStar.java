@@ -1,4 +1,4 @@
-package com.duykien.practice.algo;
+package com.duykien.practice.algo.astar;
 
 import java.util.ArrayList;
 import java.util.HashMap;

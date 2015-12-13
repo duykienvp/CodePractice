@@ -1,12 +1,12 @@
-package com.duykien.practice.algo;
+package com.duykien.practice.algo.astar;
 
 import com.duykien.practice.datatypes.roadnetwork.LogicNetwork;
 import com.duykien.practice.datatypes.roadnetwork.NodeInfo;
 
-public class ManhattanDistanceHeuristics implements AStarShortestPathHeuristics {
+public class EuclideanDistanceHeuristics implements AStarShortestPathHeuristics {
 	private LogicNetwork network;
 
-	public ManhattanDistanceHeuristics(LogicNetwork network) {
+	public EuclideanDistanceHeuristics(LogicNetwork network) {
 		this.network = network;
 	}
 
@@ -19,9 +19,11 @@ public class ManhattanDistanceHeuristics implements AStarShortestPathHeuristics 
 		if (startNodeInfo.getNodeId() != startNode || endNodeInfo.getNodeId() != endNode) {
 			return Double.POSITIVE_INFINITY;
 		}
-		
-		return Math.abs(startNodeInfo.getLatitude() - endNodeInfo.getLatitude()) 
-				+ Math.abs(startNodeInfo.getLongitude() - endNodeInfo.getLongitude());
+
+		return Math.sqrt((startNodeInfo.getLatitude() - endNodeInfo.getLatitude())
+				* (startNodeInfo.getLatitude() - endNodeInfo.getLatitude())
+				+ (startNodeInfo.getLongitude() - endNodeInfo.getLongitude())
+						* (startNodeInfo.getLongitude() - endNodeInfo.getLongitude()));
 	}
 
 }
